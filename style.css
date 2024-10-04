@@ -1,0 +1,66 @@
+
+.flex-layout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+nav{
+
+    display: flex;
+    background-color: hotpink;
+
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 2rem;
+
+    padding-inline: 1rem;
+
+}
+
+
+
+.primary-navigation{
+    display: flex;
+
+    list-style: none;
+
+    font-size: 1.125rem;
+
+    gap: 1rem;
+
+}
+
+
+
+.froggy{
+
+width: 32px;
+height: 32px;
+
+}
+
+
+.nav-link{
+
+    font-size: larger;
+    
+    font-family:'Segoe UI';
+
+    font-weight: 600;
+
+}
+
+
+.nav-link:hover{
+
+    color: red;
+
+    font-weight: bolder;
+
+}
